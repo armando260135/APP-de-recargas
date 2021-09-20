@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diseno_mo"
+    tools:context=".RecargarActivity">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/Regnumero_tel"
+        android:layout_width="264dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/telefono2"
+        android:drawablePadding="10dp"
+        android:hint="Numero de telefono"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1" />
+
+    <EditText
+        android:id="@+id/Regvalor_recarga"
+        android:layout_width="264dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/dollar"
+        android:drawablePadding="10dp"
+        android:hint=" Valor a recargar"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Regnumero_tel" />
+
+    <Button
+        android:id="@+id/buttonRecargar"
+        android:layout_width="263dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="109dp"
+        android:background="@drawable/btn_recargar"
+        android:text="Recargar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Regvalor_recarga"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/mostito"
+        android:layout_width="277dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center|start"
+        android:text="Saldo Disponible"
+        android:textColor="#F6F6F6"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backhome"
+        android:layout_width="51dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/blue_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/regreso"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/mision"
+        android:layout_width="160dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center|start"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="54dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center|end"
+        android:text="$"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/mision"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostito" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

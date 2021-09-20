@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <!--<ImageView
+        android:layout_width="424dp"
+        android:layout_height="170dp"
+        android:src="@drawable/hola_azul" />-->
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:background="@drawable/btn_style_logo"
+        android:text="Registrarse"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/RegCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableLeft="@drawable/correoo"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!--<Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="9"
+        android:drawableLeft="@drawable/correoo"
+        android:text="Tipo de Identificacion"/> -->
+
+    <!--<EditText
+        android:id="@+id/RegTipodocumento"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableStart="@drawable/identidad"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/tipoIdentidad"
+        android:inputType="text" /> -->
+
+    <EditText
+        android:id="@+id/RegIdentidad"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableStart="@drawable/identidad"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/NumIdentidad"
+        android:inputType="number"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/RegNombre"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableLeft="@drawable/nombre"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="nombre"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/RegApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableLeft="@drawable/apellido"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/apellidos"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/RegTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableLeft="@drawable/telefono"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/NumTelefono"
+        android:inputType="phone"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/RegUser"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableLeft="@drawable/user24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/user"
+        android:inputType="textPersonName"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/RegPass"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_weight="12"
+        android:drawableStart="@drawable/padlock"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_weight="10"
+        android:background="@drawable/btn_style"
+        android:onClick="registrar"
+        android:text="@string/Registrarse"
+        android:textColor="@color/white"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="10"
+        android:background="@drawable/btn_style"
+        android:onClick="cancelarRegi"
+        android:text="@string/CancelarR"
+        android:textColor="@color/white"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>

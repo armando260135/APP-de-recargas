@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RecarYa</string>
+    <string name="password">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="registrar">No tienes Cuenta? Registrarse</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="CancelarR">Cancelar</string>
+    <string name="correo">Correo electronico</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="NumTelefono">Telefono</string>
+    <string name="NumIdentidad">Numero de identidad</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/drawable/btn_boton_circulo_inicio.xml" value="0.1125" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/drawable/btn_mostrar_historial.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/drawable/btn_recargar.xml" value="0.2203125" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/drawable/btn_style.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/drawable/btn_style_configuracion.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/drawable/btn_style_historial.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/drawable/btn_style_informacion.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/font/abel.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_configuracion.xml" value="0.18" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_inicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_mostraru.xml" value="0.25" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_perfil.xml" value="0.1" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_recargar.xml" value="0.25" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_register.xml" value="0.15" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/listiview_mostrarrecarga.xml" value="0.33" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/layout/spinner_operadora.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+        <entry key="..\:/Users/Arman/AndroidStudioProjects/Esperanza/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1125" />
+        <entry key="..\:/Users/RYZEN/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_inicio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RYZEN/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RYZEN/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_mostraru.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RYZEN/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RYZEN/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_recargar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RYZEN/AndroidStudioProjects/Esperanza/app/src/main/res/layout/activity_register.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

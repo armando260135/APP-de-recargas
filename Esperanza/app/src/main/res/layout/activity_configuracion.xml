@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zona_config"
+    tools:context=".ConfiguracionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Configuracion"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backhome2"
+        android:layout_width="51dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/blue_logo"
+        android:onClick="regresar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/regreso" />
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="549dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42sp"
+            android:drawableStart="@drawable/account_1"
+            android:drawableEnd="@drawable/flecha_correcta16"
+            android:drawablePadding="10dp"
+            android:text="Cuenta"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32sp"
+            android:drawableStart="@drawable/notificaciones_2"
+            android:drawableEnd="@drawable/flecha_correcta16"
+            android:drawablePadding="10dp"
+            android:text="Notificaciones"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32sp"
+            android:drawableStart="@drawable/cloud"
+            android:drawableEnd="@drawable/flecha_correcta16"
+            android:drawablePadding="10dp"
+            android:text="Privacidad"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="32sp"
+            android:drawableStart="@drawable/faq"
+            android:drawableEnd="@drawable/flecha_correcta16"
+            android:drawablePadding="10dp"
+            android:text="FaQ"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32sp"
+            android:drawableStart="@drawable/stadistics"
+            android:drawableEnd="@drawable/flecha_correcta16"
+            android:drawablePadding="10dp"
+            android:text="Estadisticas"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32sp"
+            android:drawableStart="@drawable/idiomas"
+            android:drawableEnd="@drawable/flecha_correcta16"
+            android:drawablePadding="10dp"
+            android:text="Lenguaje"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="32sp"
+            android:drawableStart="@drawable/info"
+            android:drawableEnd="@drawable/flecha_correcta16"
+            android:text="Acerca De"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
